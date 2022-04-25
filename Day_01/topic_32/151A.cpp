@@ -20,7 +20,7 @@ void solve()
 
     int drink = a[1] * a[2];                                            // k*l
     int slices = a[3] * a[4];                                           // c*d
-    cout << min(drink / a[6], min(slices, a[5] / a[7])) / a[0] << endl; // total toast / number of freind - > toast made by each freind
+    cout << min(drink / a[6], min(slices, a[5] / a[7])) / a[0] << endl; // total toast / number of friend - > toast made by each friend
 }
 int main()
 {
